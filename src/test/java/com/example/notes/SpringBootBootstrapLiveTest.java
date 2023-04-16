@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class SpringBootBootstrapLiveTest {
 
     private static final String API_ROOT
-            = "http://localhost:8081/api/notes";
+            = "http://localhost:8080/api/notes";
 
     private Note createRandomNote() {
         Note note = new Note();
